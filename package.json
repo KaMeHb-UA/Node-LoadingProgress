@@ -1,21 +1,19 @@
 {
-    "name": "string-finder",
-    "version": "1.0.0-b",
-    "main": "app.js",
-    "description": "An automatic script that allows you to find strings in all your site with realtime log output",
+    "name": "loading-progress",
+    "version": "0.0.1-b",
+    "main": "loading-progress.js",
+    "description": "LoadingProgress is the simple class that allows you to get beautiful progress bar in your CLI app. Check tests for more",
     "license": "MS-PL",
     "keywords": [
-        "find",
-        "string",
-        "site",
-        "sitemap"
+        "loading",
+        "progress",
+        "bar",
+        "cli"
     ],
     "dependencies": {
-        "colors": "^1.1.2",
-        "loading-animation": "^0.0.0-a",
-        "progress-bar": "^0.1.1",
-        "readline": "^1.3.0",
-        "request": "^2.83.0",
-        "sitemapper": "^2.1.13"
+        "colors": "^1.1.2"
+    },
+    "scripts": {
+        "test": "node tests/main"
     }
 }
